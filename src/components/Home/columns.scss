@@ -1,0 +1,153 @@
+$small: 300px;
+$medium: 992px;
+.col1 {
+    display: flex;
+    flex-direction: column;
+    width: 11rem;
+    margin-top: 87px;
+    margin-left: -94px;
+    gap: 1.5rem;
+
+    @media screen and (max-width: $medium) {
+      margin-top: 78px;
+      margin-left: 1px;
+    }
+
+    .himg {
+      max-width: 100%;
+    }
+
+    .imgTit {
+      color: rgb(98 110 121 / 1);
+      font-size: 13px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+  .col2 {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    margin-top: 21px;
+    margin-left: 58px;
+
+    @media screen and (max-width: $medium) {
+      width: 30rem;
+      margin-left: -154px;
+    }
+
+    .highata,
+    .info {
+      color: rgb(75 86 101 / 1);
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 1rem;
+      text-align: left;
+      width: 98%;
+    }
+
+    .discount {
+      font-size: 13px;
+      padding-top: 0.125rem;
+      padding-bottom: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+      background-color: rgb(242, 244, 247);
+      justify-content: center;
+      width: 54px;
+      height: 19px;
+      margin-top: -7px;
+    }
+
+    .title,
+    .highlight {
+      color: rgb(44 56 74 / 1);
+      font-weight: 700;
+      margin: 0;
+
+      @media screen and (max-width: $medium) {
+        text-align: center;
+      }
+    }
+
+    .highata {
+      margin-top: 0.63rem;
+      margin-left: 18px;
+    }
+
+    .detail {
+      font-size: 17px;
+      margin-top: -1rem;
+      color: blue;
+
+      .show {
+        width: 22px;
+        margin-bottom: -7px;
+        margin-left: 6px;
+      }
+    }
+  }
+  .col3 {
+    margin-bottom: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 72px;
+    margin-left: 44px;
+
+    .lastCol {
+        padding: 28px;
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgb(243, 249, 255);
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        align-items: center;
+        flex-direction: column;
+        margin-right: -13.5rem;
+        margin-bottom: -11rem;
+
+      @media screen and (max-width: $medium) {
+        padding: 16px;
+        margin-top: -36rem;
+        margin-left: 15rem;
+      }
+
+      .lcItem {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 106px;
+        margin-bottom: 1rem;
+        justify-content: center;
+
+        .rating {
+          color: rgb(7, 71, 134);
+          font-weight: 500;
+          font-size: 32px;
+          text-align: center;
+          // margin-top: 7px;
+          margin: 0;
+        }
+
+        .grade {
+          color: rgb(7, 71, 134);
+          font-weight: 400;
+          font-size: 1.15rem;
+          line-height: 1.25rem;
+          text-align: left;
+          margin-top: 8.75px;
+        }
+
+        .stars {
+          display: block;
+          height: 13px;
+          margin-top: -0.5rem;
+          margin-left: 0.5rem;
+          max-width: 100%;
+          vertical-align: middle;
+        }
+      }
+    }
+  }

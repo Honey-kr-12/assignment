@@ -1,0 +1,200 @@
+$small: 300px;
+$medium: 532px;
+$large: 992px;
+.header-text {
+  display: flex;
+  padding-top: 0.625rem;
+  align-items: center;
+  width: 65%;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: $large) {
+    width: 34rem;
+  }
+  @media screen and (max-width: $medium) {
+    // width: 58rem;
+    margin-left: 12rem;
+  }
+
+
+  .heading {
+    display: flex;
+    padding-top: 1.625rem;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    font-size: 3rem;
+    color: rgb(44, 56, 74);
+    left: 1px;
+
+    @media screen and (max-width: $large) {
+      font-size: 2.5rem;
+    }
+
+  }
+
+  .center-line {
+    background-color: rgb(225 228 230 / 1);
+    width: 102.3%;
+    height: 2px;
+    margin-top: 10rem;
+
+    @media screen and (max-width: $large) {
+          margin-top: 9rem;
+    width: 69rem;
+    }
+  }
+
+  .header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 69rem;
+    margin-top: 9px;
+
+    @media screen and (max-width: $large) {
+      margin-left: 19rem;
+}
+
+
+    .tick {
+      width: 1.25rem;
+      height: 1.25rem;
+      margin-top: 5px;
+    }
+
+
+    .info,
+    .last-updated {
+      margin-left: 0.5rem;
+      margin-top: 7px;
+
+    }
+
+    .tick,
+    .date {
+      opacity: 1;
+      color: rgb(75 86 101 /1);
+      font-weight: 400;
+      text-align: left;
+
+    }
+
+    .tick {
+      margin-left: 5px;
+      margin-top: 7px;
+      font-size: 1.1rem;
+      line-height: 1.25rem;
+    }
+
+    .date {
+      line-height: 1.25rem;
+      margin-top: 7px;
+    }
+
+    .info-img {
+      margin-left: 1.25rem;
+      margin-top: 5px;
+    }
+
+
+    .top-relivent-container {
+      color: rgb(114, 125, 135);
+      justify-content: flex-end;
+      width: 12%;
+      margin-left: 480px;
+      display: flex;
+
+      @media screen and (max-width: $large) {
+        margin-left: 137px;
+  }
+
+      .relivent-text {
+        opacity: 1;
+        color: rgb(114 125 135 / 1);
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-top: 7px;
+        margin-right: 7px;
+      }
+
+
+      .relivent-arrow {
+        font-size: 1rem;
+        margin-right: -21px;
+        line-height: 1.25rem;
+        margin-top: -6px;
+      }
+
+    }
+
+
+  }
+
+  .center-line2 {
+    opacity: 1;
+    background-color: rgb(225 228 230 / 1);
+    width: 102.3%;
+    height: 2px;
+    margin-top: 0;
+
+    @media screen and (max-width: $large) {
+      width: 71rem;
+}
+    
+  }
+
+}
+
+.lastPart {
+      gap: 19px;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-left: -66px;
+
+  .lastFlex {
+    display: flex;
+    margin-left: -117px;
+
+    .awsbuilder,
+    .startBuild,
+    .buildSupplies,
+    .tooling,
+    .bluehost,
+    .tools {
+      color: rgb(75, 86, 101);
+    padding-left: 1rem;
+    padding-right: 32px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 105px;
+    height: 2.25rem;
+    }
+  }
+}
+
+.staticRoute {
+  display: flex;
+  width: 70rem;
+  flex-direction: row;
+  gap: 1rem;
+
+  @media screen and (max-width: $large) {
+    width: 31rem;
+}
+
+  .arrowImg,
+  .homeSR {
+    color: rgb(114 125 135 / 1);
+    align-self: baseline;
+    margin-top: -1rem;
+  }
+}
